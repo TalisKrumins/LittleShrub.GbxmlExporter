@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
     <TargetFrameworks>net48;net8.0-windows</TargetFrameworks>
     <UseWindowsForms>false</UseWindowsForms>
     <UseWPF>false</UseWPF>
@@ -34,10 +35,6 @@
       <HintPath>$(ProgramFiles)\Autodesk\Revit 2025\RevitAPIUI.dll</HintPath>
       <Private>false</Private>
     </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.Xml.XmlSerializer" Version="4.7.0" />
   </ItemGroup>
 
   <ItemGroup>
