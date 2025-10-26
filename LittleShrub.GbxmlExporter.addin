@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>LittleShrub gbXML 7.03 Exporter</Name>
+    <Assembly>%APPDATA%\Autodesk\Revit\Addins\LittleShrub.GbxmlExporter\LittleShrub.GbxmlExporter.dll</Assembly>
+    <AddInId>0C9A2E76-54B2-4C7B-8C02-0C2C8B1B85AA</AddInId>
+    <FullClassName>LittleShrub.GbxmlExporter.Command.ExportGbxml703</FullClassName>
+    <VendorId>LSHR</VendorId>
+    <VendorDescription>LittleShrub Consulting</VendorDescription>
+    <Text>Export gbXML 7.03 (Deterministic)</Text>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <AllowLoadIntoExistingSession>true</AllowLoadIntoExistingSession>
+  </AddIn>
+</RevitAddIns>
